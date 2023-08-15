@@ -1,0 +1,33 @@
+Regression is a statistical technique used to model the relationship between a dependent variable (also known as the target or outcome) and one or more independent variables (also known as predictors or features). The goal of regression is to find the best-fitting mathematical equation that describes the relationship between these variables.
+
+The general form of a regression equation can be written as:
+
+y=f(x 1,x 2,…,x n)+ε
+
+Where:
+- \( y \) is the dependent variable (the one you want to predict).
+- \( x_1, x_2, \ldots, x_n \) are the independent variables (predictors).
+- \( f \) represents the functional relationship between the predictors and the dependent variable.
+- \( \varepsilon \) represents the error term, which accounts for the variability that the model doesn't capture.
+
+There are various types of regression techniques, each suited to different types of data and scenarios. Here are some common types of regression:
+
+1. **Linear Regression**: In linear regression, the relationship between the dependent variable and the predictors is modeled as a linear equation. The goal is to find the line that minimizes the sum of squared differences between the observed and predicted values.
+
+2. **Multiple Regression**: This is an extension of linear regression, where multiple independent variables are used to predict the dependent variable. The equation becomes a hyperplane in multi-dimensional space.
+
+3. **Polynomial Regression**: Polynomial regression extends linear regression by fitting a polynomial equation to the data, allowing for curves and nonlinear relationships to be captured.
+
+4. **Ridge Regression (L2 Regularization)** and **Lasso Regression (L1 Regularization)**: These are techniques used to address multicollinearity (correlation between predictors) and prevent overfitting by adding penalty terms to the regression equation. Ridge regression uses L2 regularization, and lasso regression uses L1 regularization.
+
+5. **Logistic Regression**: Despite its name, logistic regression is used for binary classification tasks, not regression. It models the probability of belonging to a particular class given predictor variables. It's commonly used for problems like spam detection and medical diagnoses.
+
+6. **Poisson Regression**: Used when the dependent variable represents count data (e.g., the number of occurrences of an event) and follows a Poisson distribution.
+
+7. **Time Series Regression**: Used when dealing with time series data, where the dependent variable's value depends on its past values and potentially other predictors.
+
+8. **Support Vector Regression (SVR)**: An extension of support vector machines (SVMs) for regression tasks. It aims to find a hyperplane that best fits the data while allowing some margin for error.
+
+9. **Elastic Net Regression**: Combines both L1 and L2 regularization to address multicollinearity and improve the generalization of the model.
+
+These are just a few examples of regression techniques. The choice of which regression technique to use depends on the nature of the data, the relationship between variables, and the specific goals of the analysis.
